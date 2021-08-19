@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunib GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/calculator.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="info" id="info">
+        <button type="button" id="info-button"><i class="fa fa-info"></i></button>
+        <div id="info-text">
+            <p><i class="fa fa-book"></i> Course | Mata Kuliah</p>
+            <p><i class="fa fa-asterisk"></i> SCU | SKS</p>
+            <p><i class="fa fa-cube"></i> Component | Komponen</p>
+            <p><i class="fa fa-percentage"></i> Percentage | Persentase</p>
+            <p><i class="fa fa-star"></i> Score | Skor</p>
+            <p><i class="fa fa-balance-scale"></i> GPA | IPK</p>
+        </div>
+    </div>
+
+    <div class="warning" id="warning">
+        <h3><i class="fa fa-exclamation-triangle"></i> Make sure to save the result by taking a screenshot before refreshing or closing the browser</h3>
+        <button type="button" id="close" title="Dismiss Warning"><i class="fa fa-times"></i></button>
+    </div>
+
+    <div class="container">
+        <div class="left" id="left">
+            <img src="img/calculator.png" id="image" alt="Calculator" width="80%">
+            <h1 id="title">Sunib GPA Calculator</h1>
+            <div id="added-course"></div>
+            <div id="course-input"></div>
+        </div>
+        
+        <div class="right" id="right">
+            <div id="btn-container">
+                <button type="button" id="add-course"><i class="fa fa-plus"></i> Add Course</button>
+                <button type="button" id="check" class="dis" disabled><i class="fa fa-search"></i> Check GPA</button>
+            </div>
+            <div id="comp-input"></div>
+            <div id="final-score"></div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div id="copyright"></div>
+        <div id="attribute">
+            <a href="https://www.freepik.com/photos/background" target="_blank">Background photo created by user3802032 - www.freepik.com</a><br>
+            <a href="https://www.freepik.com/vectors/science" target="_blank">Science vector created by stories - www.freepik.com</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
