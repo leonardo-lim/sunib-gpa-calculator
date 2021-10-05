@@ -1,1 +1,2 @@
-Check out the GPA Calculator here: https://leonardolim78.github.io/sunib-gpa-calculator/
+# Sunib GPA Calculator
+Check out the GPA Calculator here: https://leonardo-lim.github.io/sunib-gpa-calculator/
